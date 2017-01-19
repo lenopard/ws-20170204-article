@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,400");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*Importing google fonts*/
+/*Setting up basic font*/
+body {
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-size: 1em; }
+
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; }
+
+h1 {
+  font-size: 32px;
+  font-size: 2em; }
+
+h2 {
+  font-size: 26px;
+  font-size: 1.625em;
+  margin: 35px 0 10px 0; }
+
+h3 {
+  font-size: 22px;
+  font-size: 1.375em;
+  margin: 25px 0 10px 0; }
+
+h4 {
+  font-size: 18px;
+  font-size: 1.125em;
+  margin: 15px 0 10px 0; }
+
+p {
+  line-height: 24px;
+  line-height: 1.5em;
+  margin: 5px 0 5px 0; }
+
+ul li {
+  margin: 10px 0 5px 0;
+  list-style: square inside; }
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%; }
+
+header {
+  background-image: url("img/article-cover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 5px 5px #d3d3d3;
+  padding: 60px 10px 20px 10px;
+  position: relative;
+  height: 150px;
+  width: 100%; }
+  header h1 {
+    color: #ffffff; }
+  header .article-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -15px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-size: 0.75em; }
+    header .article-info img {
+      margin: 0px 5px 0px 0px; }
+
+.article-body {
+  padding: 20px 10px 20px 10px; }
+
+.autor-avatar {
+  border-radius: 50%;
+  border: 1px solid #f2f2f2; }
+
+.small-avatar {
+  height: 60px;
+  width: 60px; }
+
+/*# sourceMappingURL=style.css.map */
